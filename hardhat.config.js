@@ -13,19 +13,25 @@ require("dotenv").config()
 const MAINNET_RPC_URL =
     process.env.MAINNET_RPC_URL ||
     process.env.ALCHEMY_MAINNET_RPC_URL ||
-    "https://eth-mainnet.alchemyapi.io/v2/your-api-key"
+    "https://eth-mainnet.alchemyapi.io/v2/MafpYJY_AQOwsId-yRZSWey12BhuuOuy"
 const RINKEBY_RPC_URL =
-    process.env.RINKEBY_RPC_URL || "https://eth-rinkeby.alchemyapi.io/v2/your-api-key"
-const KOVAN_RPC_URL = process.env.KOVAN_RPC_URL || "https://eth-kovan.alchemyapi.io/v2/your-api-key"
+    process.env.RINKEBY_RPC_URL ||
+    "https://eth-rinkeby.alchemyapi.io/v2/MafpYJY_AQOwsId-yRZSWey12BhuuOuy"
+const KOVAN_RPC_URL =
+    process.env.KOVAN_RPC_URL ||
+    "https://eth-kovan.alchemyapi.io/v2/MafpYJY_AQOwsId-yRZSWey12BhuuOuy"
 const POLYGON_MAINNET_RPC_URL =
-    process.env.POLYGON_MAINNET_RPC_URL || "https://polygon-mainnet.alchemyapi.io/v2/your-api-key"
+    process.env.POLYGON_MAINNET_RPC_URL ||
+    "https://polygon-mainnet.alchemyapi.io/v2/MafpYJY_AQOwsId-yRZSWey12BhuuOuy"
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "0x"
 // optional
-const MNEMONIC = process.env.MNEMONIC || "your mnemonic"
+const MNEMONIC =
+    process.env.MNEMONIC ||
+    "another garment claim design eagle tumble maximum grit brave strike poverty devote"
 
 // Your API key for Etherscan, obtain one at https://etherscan.io/
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "Your etherscan API key"
-const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "Your polygonscan API key"
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "YK4VV7IZ17DZ2XRJYRH2XEFV9W2CC2Y34W"
+const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "PYSnsZxARSLzzLrwYKNAtV8bHpSSnXUO"
 const REPORT_GAS = process.env.REPORT_GAS || false
 
 module.exports = {
